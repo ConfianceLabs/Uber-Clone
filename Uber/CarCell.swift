@@ -9,5 +9,7 @@
 import UIKit
 
 class CarCell: UICollectionViewCell {
+    @IBOutlet weak var carImage: UIImageView!
+    @IBOutlet weak var carName: UILabel!
     
 }
